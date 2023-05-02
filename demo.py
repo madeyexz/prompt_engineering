@@ -65,7 +65,7 @@ with get_openai_callback() as cb: #cb as callback, this is used to count tokens
     print(cb) # would return 'tokens used', 'successful requests' and 'total cost (in USD)'
 
 if duration >= timelimit:
-    print(f"you've exceeded time limit of {timelimit} seconds")
+    print(f"You've exceeded time limit of {timelimit/60} min.")
 
 memory_data = ag_memory.load_memory_variables({})
 conver_data = memory_data['history'].split('\n')
