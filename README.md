@@ -1,5 +1,10 @@
+# About This Project
+This project
+- uses `langchain` and `timeit` to generate a chatbot that behaves like a *case interviewer*.
+- is currently a proof of concept, demo product.
+
 # Prerequisites
-1. Clone this project to your desired working directory, if you don't know what I'm talking about, then enter`cd ~/Desktop` in your terminal, then
+1. Clone this project to your working directory, if you don't know what I'm talking about, then enter`cd ~/Desktop` in your terminal, then
    ``` bash
    git clone https://github.com/madeyexz/prompt_engineering.git
    ```
@@ -16,7 +21,7 @@
    os.environ["OPENAI_API_KEY"]
    ```
    to check if you have them exported to system environment, if `KeyError`, then restart the terminal upon completion (and your IDE if you are using one).
-4. Install the dependencies
+3. Install the dependencies
    ``` bash
    pip3 install langchain timeit
    ```
@@ -28,3 +33,7 @@ python3 demo.py
 ```
 
 to quit the demo, enter `quit` in the chatbox
+
+# Feature Request
+- Add voice input (can integrate `Whisper`)
+- Language support: Chinese
