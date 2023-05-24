@@ -36,6 +36,7 @@ def main():
     # for i,j in case_database:
     #     prompt = prompt_generation(i,j)
     #     prompt_database_storage(prompt)
+    pass
 
 if __name__ == '__main__':
     main()
